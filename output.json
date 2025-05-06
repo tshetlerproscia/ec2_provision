@@ -1,0 +1,153 @@
+{
+    "Reservations": [
+      {
+        "Groups": [],
+        "Instances": [
+          {
+            "AmiLaunchIndex": 0,
+            "ImageId": "ami-0f9de6e2d2f067fca",
+            "InstanceId": "i-08adfb03f18a9af24",
+            "InstanceType": "t2.large",
+            "KeyName": "tom-c4r",
+            "LaunchTime": "2025-04-28T15:29:26+00:00",
+            "Monitoring": {
+              "State": "disabled"
+            },
+            "Placement": {
+              "AvailabilityZone": "us-east-1d",
+              "GroupName": "",
+              "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-45-158.ec2.internal",
+            "PrivateIpAddress": "172.31.45.158",
+            "ProductCodes": [],
+            "PublicDnsName": "ec2-54-226-58-204.compute-1.amazonaws.com",
+            "PublicIpAddress": "54.226.58.204",
+            "State": {
+              "Code": 16,
+              "Name": "running"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-0d796f88f83d85404",
+            "VpcId": "vpc-0cc77926b86b561f5",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+              {
+                "DeviceName": "/dev/sda1",
+                "Ebs": {
+                  "AttachTime": "2025-04-28T15:29:27+00:00",
+                  "DeleteOnTermination": true,
+                  "Status": "attached",
+                  "VolumeId": "vol-01665539e7a3b3753"
+                }
+              }
+            ],
+            "ClientToken": "12a63ade-3b8c-44e6-bd14-f1b56c1ddc84",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+              {
+                "Association": {
+                  "IpOwnerId": "amazon",
+                  "PublicDnsName": "ec2-54-226-58-204.compute-1.amazonaws.com",
+                  "PublicIp": "54.226.58.204"
+                },
+                "Attachment": {
+                  "AttachTime": "2025-04-28T15:29:26+00:00",
+                  "AttachmentId": "eni-attach-0c07ed913da55dd99",
+                  "DeleteOnTermination": true,
+                  "DeviceIndex": 0,
+                  "Status": "attached",
+                  "NetworkCardIndex": 0
+                },
+                "Description": "",
+                "Groups": [
+                  {
+                    "GroupName": "tom-c4r-office",
+                    "GroupId": "sg-02bd20ae73bf7c97b"
+                  }
+                ],
+                "Ipv6Addresses": [],
+                "MacAddress": "0e:43:70:82:04:a3",
+                "NetworkInterfaceId": "eni-0e2634c188c0a8759",
+                "OwnerId": "976326599866",
+                "PrivateDnsName": "ip-172-31-45-158.ec2.internal",
+                "PrivateIpAddress": "172.31.45.158",
+                "PrivateIpAddresses": [
+                  {
+                    "Association": {
+                      "IpOwnerId": "amazon",
+                      "PublicDnsName": "ec2-54-226-58-204.compute-1.amazonaws.com",
+                      "PublicIp": "54.226.58.204"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-172-31-45-158.ec2.internal",
+                    "PrivateIpAddress": "172.31.45.158"
+                  }
+                ],
+                "SourceDestCheck": true,
+                "Status": "in-use",
+                "SubnetId": "subnet-0d796f88f83d85404",
+                "VpcId": "vpc-0cc77926b86b561f5",
+                "InterfaceType": "interface"
+              }
+            ],
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+              {
+                "GroupName": "tom-c4r-office",
+                "GroupId": "sg-02bd20ae73bf7c97b"
+              }
+            ],
+            "SourceDestCheck": true,
+            "Tags": [
+              {
+                "Key": "Name",
+                "Value": "tom-c4r-postgres-size-test"
+              }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+              "CoreCount": 2,
+              "ThreadsPerCore": 1
+            },
+            "CapacityReservationSpecification": {
+              "CapacityReservationPreference": "open"
+            },
+            "HibernationOptions": {
+              "Configured": false
+            },
+            "MetadataOptions": {
+              "State": "applied",
+              "HttpTokens": "required",
+              "HttpPutResponseHopLimit": 2,
+              "HttpEndpoint": "enabled",
+              "HttpProtocolIpv6": "disabled",
+              "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+              "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "UsageOperationUpdateTime": "2025-04-28T15:29:26+00:00",
+            "PrivateDnsNameOptions": {
+              "HostnameType": "ip-name",
+              "EnableResourceNameDnsARecord": true,
+              "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+              "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "legacy-bios"
+          }
+        ],
+        "OwnerId": "976326599866",
+        "ReservationId": "r-03bbfe8c6e1fa17e7"
+      }
+    ]
+  }
+  
